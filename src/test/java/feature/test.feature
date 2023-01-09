@@ -33,3 +33,14 @@ Feature: dummy test feature
     Given i'm in dummy
     When run dummy scenario
     Then i get dummy results
+
+  Rule: 3
+  This is rule3  description
+
+    Background: rule 3 background
+
+    @testScenario
+    Scenario: dummy scenario
+      Given i'm in dummy
+      When run dummy scenario
+      Then i get dummy results
